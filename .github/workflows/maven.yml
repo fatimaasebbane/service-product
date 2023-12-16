@@ -32,7 +32,7 @@ jobs:
     - name: Run test
       run: mvn test
     - name : Build And Push Docker Image
-      uses: mr-smithers-exellent/docker-build-push@v6
+      uses: mr-smithers-excellent/docker-build-push@v6
       with:
            image: asebbane/service-product
            registry: docker.io
